@@ -1,0 +1,77 @@
+/*Sprite Imagenes*/
+/*<div class="sprite-odebrecht"></div>
+<div class="sprite-alejandra-aramayo"></div>
+<div class="sprite-corea-del-norte"></div>
+<div class="sprite-anuncio"></div>
+<div class="sprite-logo"></div>
+<div class="sprite-alcalde-de-chilca"></div>
+<div class="sprite-partido"></div>
+<div class="sprite-senora"></div>*/
+.sprite-odebrecht, .sprite-alejandra-aramayo, .sprite-corea-del-norte, .sprite-anuncio, .sprite-logo,
+.sprite-alcalde-de-chilca, .sprite-partido, .sprite-senora
+{ display: inline-block; background: url('../img/imagenTotal.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.sprite-odebrecht { background-position: -5px -0px; width: 425px; height: 250px; }
+.sprite-alejandra-aramayo { background-position: -5px -255px; width: 312px; height: 165px; }
+.sprite-corea-del-norte { background-position: -5px -425px; width: 312px; height: 165px; }
+.sprite-anuncio { background-position: -5px -595px; width: 310px; height: 86px; }
+.sprite-logo { background-position: -5px -686px; width: 281px; height: 49px; }
+.sprite-alcalde-de-chilca { background-position: -5px -740px; width: 243px; height: 270px; }
+.sprite-partido { background-position: -5px -1015px; width: 243px; height: 270px; }
+.sprite-senora { background-position: -322px -255px; width: 53px; height: 84px; }
+body{
+  margin:0;
+}
+header{
+  top:0;
+  position: fixed;
+  width: 100%;
+  background-color: #E00109;
+}
+.logos{
+  position: relative;
+  display: block;
+}
+.sprite-logo{
+  position: absolute;
+  display: inline-block;
+  left: 15%;
+  top:10%;
+}
+.redesNav{
+  display: block;
+  position: relative;
+  margin:20px 150px;
+  text-align: center;
+  top:15px;
+}
+.icon-nav{
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  color: #FF0004;
+}
+.icon-nav> span{
+  position: absolute;
+  top:5px;
+  left: 5px;
+}
+.buscar{
+  position: absolute;
+  right: 15%;
+  top:30%;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;;
+  color:  #FFFFFF;
+  border: 2px solid white;
+}
+nav li{
+  display: inline-block;
+  color:  #FFFFFF;
+}
