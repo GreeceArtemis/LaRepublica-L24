@@ -11,14 +11,14 @@
 .sprite-alcalde-de-chilca, .sprite-partido, .sprite-senora
 { display: inline-block; background: url('../img/imagenTotal.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
 
-.sprite-odebrecht { background-position: -5px -0px; width: 425px; height: 250px; }
-.sprite-alejandra-aramayo { background-position: -5px -255px; width: 312px; height: 165px; }
-.sprite-corea-del-norte { background-position: -5px -425px; width: 312px; height: 165px; }
-.sprite-anuncio { background-position: -5px -595px; width: 310px; height: 86px; }
-.sprite-logo { background-position: -5px -686px; width: 281px; height: 49px; }
-.sprite-alcalde-de-chilca { background-position: -5px -740px; width: 243px; height: 270px; }
-.sprite-partido { background-position: -5px -1015px; width: 243px; height: 270px; }
-.sprite-senora { background-position: -322px -255px; width: 53px; height: 84px; }
+.sprite-odebrecht { display: inline-block;background-position: -5px -0px; width: 425px; height: 250px; }
+.sprite-alejandra-aramayo { display: inline-block; background-position: -5px -255px; width: 312px; height: 165px; }
+.sprite-corea-del-norte { display: inline-block; background-position: -5px -425px; width: 312px; height: 165px; }
+.sprite-anuncio { display: inline-block; background-position: -5px -595px; width: 310px; height: 86px; }
+.sprite-logo { display: inline-block; background-position: -5px -686px; width: 281px; height: 49px; }
+.sprite-alcalde-de-chilca { display: inline-block; background-position: -5px -740px; width: 243px; height: 270px; }
+.sprite-partido { display: inline-block; background-position: -5px -1015px; width: 243px; height: 270px; }
+.sprite-senora { display: inline-block; background-position: -322px -255px; width: 53px; height: 84px; }
 body{
   margin:0;
 }
@@ -106,6 +106,7 @@ nav li a{
 }
 .parteLeft{
   display: inline-block;
+  width: 400px;
 }
 .noticeP{
   display: inline-block;
@@ -113,8 +114,20 @@ nav li a{
   background-color: #333340;
   margin:10px;
 }
+.noticeS{
+  display: inline-block;
+  color:white;
+  background-color: #1363A9;
+  margin:10px;
+}
 h1,h2{
   display: inline-block;
+}
+.t1{
+  display: inline-block;
+}
+.tit1{
+  width: 100px;
 }
 .redes-sociales li{
   display: inline-block;
@@ -124,4 +137,5 @@ h1,h2{
 }
 .parteRight{
   display: inline-block;
+  width: 300px;
 }
