@@ -31,6 +31,7 @@ header{
 .logos{
   position: relative;
   display: block;
+  margin-bottom: 50px;
 }
 .sprite-logo{
   position: absolute;
@@ -56,7 +57,11 @@ header{
   background-color: #FFFFFF;
   color: #FF0004;
 }
-.icon-nav> span{
+nav{
+  background-color: #4D4D59;
+  display: block;
+}
+.icon-nav > span{
   position: absolute;
   top:5px;
   left: 5px;
@@ -71,7 +76,52 @@ header{
   color:  #FFFFFF;
   border: 2px solid white;
 }
+nav{
+  background: #4D4D59;
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
 nav li{
   display: inline-block;
+  margin:15px 5px;
+}
+nav li a{
   color:  #FFFFFF;
+  text-decoration: none;
+}
+.sectionGeneral{
+  display: block;
+  text-align: center;
+  background-color: #EBEBEB;
+  margin-top: 150px;
+}
+.noticias{
+  display: inline-block;
+  width: 900px;
+
+  background-color: #FFFFFF;
+  border: 1px solid bla
+}
+.parteLeft{
+  display: inline-block;
+}
+.noticeP{
+  display: inline-block;
+  color:white;
+  background-color: #333340;
+  margin:10px;
+}
+h1,h2{
+  display: inline-block;
+}
+.redes-sociales li{
+  display: inline-block;
+}
+.sprite-odebrecht{
+  display: inline-block;
+}
+.parteRight{
+  display: inline-block;
 }
