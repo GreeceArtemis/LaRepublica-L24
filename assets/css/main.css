@@ -27,6 +27,7 @@ header{
   position: fixed;
   width: 100%;
   background-color: #E00109;
+  z-index: 1000;
 }
 .logos{
   position: relative;
@@ -104,9 +105,9 @@ nav li a{
   background-color: #FFFFFF;
   border: 1px solid bla
 }
-.parteLeft{
+.parteLeft-noticiasImportantes{
   display: inline-block;
-  width: 400px;
+  width: 630px;
 }
 .noticeP{
   display: inline-block;
@@ -120,6 +121,13 @@ nav li a{
   background-color: #1363A9;
   margin:10px;
 }
+.element1{
+  height: 250px;
+  position: relative;
+}
+.element2, .element3{
+  width: 312px;
+}
 h1,h2{
   display: inline-block;
 }
@@ -131,6 +139,11 @@ h1,h2{
 }
 .redes-sociales li{
   display: inline-block;
+  position: absolute;
+}
+.red1{
+  left: 5px;
+  bottom: 5px;
 }
 .sprite-odebrecht{
   display: inline-block;
