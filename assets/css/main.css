@@ -160,6 +160,7 @@ nav li a{
   color:white;
   background-color: #333340;
   margin:10px;
+  position: relative;
 }
 .noticeS{
   display: inline-block;
@@ -189,11 +190,26 @@ h1,h2{
 .tit1{
   width: 222px;
   height: 275px;
-  background: yellow;
+}
+.redes-sociales{
+  padding-left: 0px;
+  margin: 0;
+  /*
+  position: absolute;*/
+  left: 5px;
+  bottom: 5px;
+}
+.redes-sociales li div{
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  background-color: #4D4D59;
+  border-radius: 50%;
+
 }
 .redes-sociales li{
   display: inline-block;
-  position: absolute;
 }
 .red1{
   left: 5px;
