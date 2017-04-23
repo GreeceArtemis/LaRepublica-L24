@@ -10,6 +10,12 @@
 
 */
 /*USANDO SPRITE*/
+body{
+  font-family: 'Mukta Vaani', sans-serif;
+}
+ul{
+      padding-left: 0px;
+}
 .sprite-odebrecht, .sprite-alejandra-aramayo, .sprite-corea-del-norte, .sprite-anuncio, .sprite-logo,
 .sprite-alcalde-de-chilca, .sprite-partido, .sprite-senora{
   display: inline-block;
@@ -62,8 +68,8 @@
   right: 0;bottom: 0;
   display: inline-block;
   background-position: -340px -280px;
-  width: 47px;
-  height: 75px; }
+  width: 46px;
+  height: 74px; }
 
 body{
   margin:0;
@@ -138,6 +144,14 @@ nav li a{
   color:  #FFFFFF;
   text-decoration: none;
 }
+nav ul li{
+  position: relative;
+}
+.icon-keyboard_arrow_down{
+  font-size: 22px;
+  color: white;
+  position: absolute;
+}
 .sectionGeneral{
   display: block;
   padding: 0px 200px;
@@ -149,7 +163,7 @@ nav li a{
   position: relative;
   width: 1035px;
   background-color: #FFFFFF;
-  border: 1px solid black;
+  box-shadow: 0 10px 30px 0px #bbb;
 }
 .partLeft-noticiasImportantes{
   display: inline-block;
@@ -181,23 +195,50 @@ nav li a{
   width: 330px;
 }
 
+.tit2,.tit3{
+  display: inline-block;
+  margin:0px 10px 0px 10px;
+  font-size: 15px;
+}
+
 h1,h2{
   display: inline-block;
+  margin:0;
 }
 .t1{
   display: inline-block;
+  position: relative;
+  height: 140px;
+  margin:  0px 10px 0px 10px;
+      margin-bottom: 0px;
+}
+.red2 , .red3{
+  right: 15px ;
+}
+.redes-sociales .icon-elem{
+  position: relative;
+}
+.redes-sociales .icon-elem span {
+  position: absolute;
+top: 3px;
+left: 3px;
+font-size: 18px;
 }
 .tit1{
-  width: 222px;
+  width: 200px;
   height: 275px;
+  font-size: 20px;
 }
 .redes-sociales{
+position: absolute;
   padding-left: 0px;
-  margin: 0;
-  /*
-  position: absolute;*/
-  left: 5px;
-  bottom: 5px;
+   margin: 0;
+
+  bottom:10px;
+}
+
+.red1 , .red4, .red5 {
+    left: 12px;
 }
 .redes-sociales li div{
   display: inline-block;
@@ -211,16 +252,14 @@ h1,h2{
 .redes-sociales li{
   display: inline-block;
 }
-.red1{
-  left: 5px;
-  bottom: 5px;
-}
+
 .sprite-odebrecht{
   display: inline-block;
 }
 section >.partRight{
   display: inline-block;
   width: 318px;
+      height: 635px;
 }
 .noticiasOtros{
   display: inline-block;
@@ -228,17 +267,19 @@ section >.partRight{
 .t2{
   display: inline-block;
   width: 110px;
-  /* height: 0px; */
-  padding-left: 10px;
+  padding-left: 0px;
   padding-top: 10px;
+  margin:0px 10px 0px 10px;
+  line-height: 20px;
 }
+
 .t2>h1{
   margin: 0px;
 }
 .editorial{
   position: relative;
   width: 305px;
-  height: 100px;
+  height: 70px;
   margin:5px;
 }
 .editorial > .tituloed{
@@ -247,6 +288,7 @@ section >.partRight{
   top: 0;
   left: 0;
   color: #FF0004;
+  font-weight: bold;
 
 }
 .tema1{
@@ -256,16 +298,28 @@ section >.partRight{
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 60px;
+  height: 45px;
   width: 100%;
 }
 .tema1 > span{
   margin-left: 5px;
   position: absolute;
   left: 5px;
-  bottom: 30%;
+  bottom: 15%;
   font-size: 20px;
 }
 .anuncios{
   margin: 5px;
+}
+.vivo{
+  display: inline-block;
+  width: 70px;
+  height: 22px;
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-align: center;
 }
