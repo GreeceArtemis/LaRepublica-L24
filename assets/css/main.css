@@ -6,19 +6,65 @@
 <div class="sprite-logo"></div>
 <div class="sprite-alcalde-de-chilca"></div>
 <div class="sprite-partido"></div>
-<div class="sprite-senora"></div>*/
-.sprite-odebrecht, .sprite-alejandra-aramayo, .sprite-corea-del-norte, .sprite-anuncio, .sprite-logo,
-.sprite-alcalde-de-chilca, .sprite-partido, .sprite-senora
-{ display: inline-block; background: url('../img/imagenTotal.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+<div class="sprite-senora"></div>
 
-.sprite-odebrecht { display: inline-block;background-position: -5px -0px; width: 425px; height: 250px; }
-.sprite-alejandra-aramayo { display: inline-block; background-position: -5px -255px; width: 312px; height: 165px; }
-.sprite-corea-del-norte { display: inline-block; background-position: -5px -425px; width: 312px; height: 165px; }
-.sprite-anuncio { display: inline-block; background-position: -5px -595px; width: 310px; height: 86px; }
-.sprite-logo { display: inline-block; background-position: -5px -686px; width: 281px; height: 49px; }
-.sprite-alcalde-de-chilca { display: inline-block; background-position: -5px -740px; width: 243px; height: 270px; }
-.sprite-partido { display: inline-block; background-position: -5px -1015px; width: 243px; height: 270px; }
-.sprite-senora { display: inline-block; background-position: -322px -255px; width: 53px; height: 84px; }
+*/
+/*USANDO SPRITE*/
+.sprite-odebrecht, .sprite-alejandra-aramayo, .sprite-corea-del-norte, .sprite-anuncio, .sprite-logo,
+.sprite-alcalde-de-chilca, .sprite-partido, .sprite-senora{
+  display: inline-block;
+  background: url('../img/imagenTotal.png') no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left; }
+
+.sprite-odebrecht {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  background-position: -5px -0px;
+  width: 467px;
+  height: 275px; }
+.sprite-alejandra-aramayo {
+  display: inline-block;
+  background-position: -5px -280px;
+  width: 330px;
+  height: 174px; }
+.sprite-corea-del-norte {
+  display: inline-block;
+  background-position: -5px -459px;
+  width: 330px;
+  height: 174px; }
+.sprite-anuncio {
+  display: inline-block;
+  background-position: -5px -638px;
+  width: 305px;
+  height: 93px; }
+.sprite-logo {
+  display: inline-block;
+  background-position: -5px -736px;
+  width: 281px;
+  height: 49px; }
+.sprite-alcalde-de-chilca {
+  position: absolute;
+  right: 0;top:0;
+  display: inline-block;
+  background-position: -5px -790px;
+  width: 180px;
+  height: 200px; }
+.sprite-partido { position: absolute;
+  right: 0;top:0;
+  display: inline-block;
+  background-position: -190px -790px;
+  width: 180px;
+  height: 200px; }
+.sprite-senora { position: absolute;
+  right: 0;bottom: 0;
+  display: inline-block;
+  background-position: -340px -280px;
+  width: 47px;
+  height: 75px; }
+
 body{
   margin:0;
 }
@@ -79,10 +125,10 @@ nav{
 }
 nav{
   background: #4D4D59;
-    display: block;
-    width: 100%;
-    height: 50px;
-    text-align: center;
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
 }
 nav li{
   display: inline-block;
@@ -94,20 +140,20 @@ nav li a{
 }
 .sectionGeneral{
   display: block;
-  text-align: center;
+  padding: 0px 200px;
   background-color: #EBEBEB;
   margin-top: 150px;
 }
 .noticias{
   display: inline-block;
-  width: 900px;
-
+  position: relative;
+  width: 1035px;
   background-color: #FFFFFF;
-  border: 1px solid bla
+  border: 1px solid black;
 }
-.parteLeft-noticiasImportantes{
+.partLeft-noticiasImportantes{
   display: inline-block;
-  width: 630px;
+  width: 710px;
 }
 .noticeP{
   display: inline-block;
@@ -119,15 +165,21 @@ nav li a{
   display: inline-block;
   color:white;
   background-color: #1363A9;
-  margin:10px;
+  margin: 5px;
+  height: 200px;
+  width: 305px;
+  position: relative;
 }
 .element1{
-  height: 250px;
+
+  height: 275px;
+  width: 685px;
   position: relative;
 }
 .element2, .element3{
-  width: 312px;
+  width: 330px;
 }
+
 h1,h2{
   display: inline-block;
 }
@@ -135,7 +187,9 @@ h1,h2{
   display: inline-block;
 }
 .tit1{
-  width: 100px;
+  width: 222px;
+  height: 275px;
+  background: yellow;
 }
 .redes-sociales li{
   display: inline-block;
@@ -148,7 +202,54 @@ h1,h2{
 .sprite-odebrecht{
   display: inline-block;
 }
-.parteRight{
+section >.partRight{
   display: inline-block;
-  width: 300px;
+  width: 318px;
+}
+.noticiasOtros{
+  display: inline-block;
+}
+.t2{
+  display: inline-block;
+  width: 110px;
+  /* height: 0px; */
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.t2>h1{
+  margin: 0px;
+}
+.editorial{
+  position: relative;
+  width: 305px;
+  height: 100px;
+  margin:5px;
+}
+.editorial > .tituloed{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #FF0004;
+
+}
+.tema1{
+  background-color: #FF0004;
+  color: white;
+  display:inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+.tema1 > span{
+  margin-left: 5px;
+  position: absolute;
+  left: 5px;
+  bottom: 30%;
+  font-size: 20px;
+}
+.anuncios{
+  margin: 5px;
 }
